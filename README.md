@@ -1,6 +1,9 @@
-![COVID-19 Data Analysis Project](images/project_banner.png)
 
 # COVID-19 Data Analysis Project
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas-green.svg)](https://pandas.pydata.org/)
 
 ## 📊 Overview
 
@@ -325,9 +328,10 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ## 👤 Author
 
-**Godwin Akachukwu**  
-Data Analyst | Business Intelligence Specialist
-
+For questions or feedback, please contact:
+- **Name**: Godwin Akachukwu
+- **Email**: ggodsvessel@gmail.com
+- **LinkedIn**: [linkedin.com/in/godwingodsvessel](www.linkedin.com/in/godwingodsvessel)
 ## 📄 License
 
 This project is open-source and available under the MIT License for educational and portfolio purposes.

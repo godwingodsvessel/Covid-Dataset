@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>COVID-19 <span>ANALYTICS</span></h1>
+        <p>Real-time data visualization and insights</p>
+      </header>
+
+      <section class="kpis">
+        <div class="kpi-card">
+          <h3>Total Records</h3>
+          <p id="total-records">1,002</p>
+        </div>
+        <div class="kpi-card">
+          <h3>Positive Cases</h3>
+          <p id="positive-cases">507</p>
+        </div>
+        <div class="kpi-card">
+          <h3>Positivity Rate</h3>
+          <p id="positivity-rate">50.60%</p>
+        </div>
+        <div class="kpi-card">
+          <h3>Avg Fever (+ve)</h3>
+          <p id="avg-fever">100.8°F</p>
+        </div>
+      </section>
+
+      <main class="dashboard-grid">
+        <div class="chart-container">
+          <h3>Cases by City</h3>
+          <canvas id="cityChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Gender Distribution</h3>
+          <canvas id="genderChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Age Distribution</h3>
+          <canvas id="ageChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Symptom Correlation (Cough)</h3>
+          <canvas id="coughChart"></canvas>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Covid Analytics Pro | Premium Dashboard Interface</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

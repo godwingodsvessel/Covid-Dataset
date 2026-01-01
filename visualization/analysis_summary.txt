@@ -1,0 +1,6 @@
+Total Records: 1000
+Positive Cases: 482
+Negative Cases: 518
+Positivity Rate: 48.20%
+Average Fever (Positive): 100.46804979253113
+Average Fever (Negative): 100.56525096525095
